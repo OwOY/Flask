@@ -14,7 +14,7 @@ def home():
     return 'hello world'
 
 
-@app.route('/<col_num>',methods = ['GET'])
+@app.route('/api/<col_num>',methods = ['GET'])
 def test(col_num):
     col_num = str(col_num)
     col_name_dict = {}
