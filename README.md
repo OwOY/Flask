@@ -17,6 +17,10 @@ request.headers
 ```
 request.args.get
 ```
+- 取得Route
+```
+request.path
+```
 ### Route變數  
 ```
 @api.route('/<page>')
