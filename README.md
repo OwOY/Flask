@@ -1,6 +1,22 @@
 # Flask
 
-
+### Request
+- 取得json  
+```
+request.get_json()
+```
+- 取得Form Data  
+```
+request.get_form()
+```
+- 取得headers  
+```
+request.headers
+```
+- 取得參數  
+```
+request.args.get
+```
 ### Route變數  
 ```
 @api.route('/<page>')
